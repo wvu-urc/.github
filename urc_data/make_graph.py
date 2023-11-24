@@ -54,7 +54,7 @@ def points_data():
                 if key == name:
                     normalized_team_score_values.append(scores[key])
                     team_scores[key] = scores[key]
-                    plt.text(year, scores[key], f"  our team: ({score_dict[year][key]} pts)", fontsize=12, ha='left', va='center', color='black')
+                    plt.text(year, scores[key], f"  our team:\n ({score_dict[year][key]} pts)", fontsize=12, ha='left', va='center', color='black')
             plt.plot([year, year], [scores[key], scores[key]], color='black', linestyle='--')
 
     plt.title('Normalized Final Scores: Univerity Rover Challenge (2014-2023)', fontweight='bold')
@@ -114,8 +114,8 @@ def extrapolated_data():
 
 def main():
     
-    # points_data()
-    extrapolated_data()
+    points_data()
+    # extrapolated_data()
 
 
 

@@ -41,8 +41,7 @@ Team Mountaineers competes in the University Rover Challenge, a competition whic
 - ### Internal Organizational System Basics:
     - Libraries:
         - Named "<library_name>_lib"
-        - A set of code that is independent from ROS and condenses and simplifies the functionality of a device or common operation into one consise library
-        - e.g: "usb_camera_lib", "dc_motor_lib"
+        - A set of code that is independent from ROS and condenses and simplifies the functionality of a device or common operation into one consise library (e.g: "usb_camera_lib", "dc_motor_lib")
     - Packages:
         - Named "<package_name>_pkg"
         - A package following the [standard set by ROS](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html) for ROS packages.
