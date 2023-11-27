@@ -26,11 +26,6 @@ Team Mountaineers competes in the University Rover Challenge, a competition whic
   <img src="images/normalized_scores.png" />
 </p>
 
-### Extrapolated 2024 Scoring 
-<p align="center">
-  <img src="images/extrapolated.png" />
-</p>
-
 ## More Information
 - Read more about our [Team Structure](https://urc.orgs.wvu.edu/team-structure)
 - See our open-source efforts: [Documentation](https://urc.orgs.wvu.edu/documentation)
